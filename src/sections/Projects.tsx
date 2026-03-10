@@ -47,70 +47,60 @@ const Projects = () => {
 
     return () => ctx.revert();
   }, []);
-  const projects = [
+const projects = [
   {
     title: 'Mini Projet PHP Guidé',
-    description: 'Réalisation d’un mini projet web en utilisant HTML pour la structure des pages et PHP pour la gestion de la logique côté serveur.
-Le projet permet de comprendre le fonctionnement des pages dynamiques, l’organisation du code et la réutilisation des composants.',
-    image: '/E.jpg', // Notez le slash au début
+    description: 'Réalisation d’un mini projet web en utilisant HTML pour la structure des pages et PHP pour la gestion de la logique côté serveur.',
+    image: '/E.jpg',
     tags: ['HTML', 'PHP'],
     featured: true,
   },
-  const projects = [
   {
     title: 'Portfolio Personnel',
-    description: 'Portfolio Des Projets Personnel',
-    image: '/F.jpg', // Notez le slash au début
+    description: 'Portfolio des projets personnels.',
+    image: '/F.jpg',
     tags: ['React', 'TypeScript', 'Vite'],
     featured: true,
   },
-  const projects = [
   {
     title: 'MiniShell-Pro',
-    description: 'MiniShell-Pro est un mini shell professionnel en C. Il supporte :
-
-Commandes système (via execvp)
-Builtins simples : exit
-Parsing des arguments
-Gestion Ctrl+C (SIGINT)
-Architecture modulaire (src/, include/, tests/, docs/)',
-    image: '/G.jpg', // Notez le slash au début
+    description: 'Mini shell professionnel en C avec support des commandes système, parsing des arguments et gestion des signaux.',
+    image: '/G.jpg',
     tags: ['C'],
     featured: true,
   },
-  const projects = [
   {
     title: 'Process Scheduler Simulator',
-    description: 'Simulation des algorithmes d’ordonnancement CPU en langage C. Projet académique orienté systèmes d’exploitation.',
-    image: '/J.jpg', // Notez le slash au début
+    description: 'Simulation des algorithmes d’ordonnancement CPU en langage C.',
+    image: '/J.jpg',
     tags: ['C'],
     featured: true,
   },
-
- const projects = [
   {
     title: 'Bank Data Migration',
-    description: 'Enterprise-grade ETL pipeline for migrating banking data with integrity validation and business rule enforcement.',
-    image: '/B.jpg', // Notez le slash au début
-    tags: ['PL/SQL', 'ETL', 'Oracle', 'Data Engineering'],
-    featured: true,
+    description: 'ETL pipeline pour migration de données bancaires avec validation d’intégrité.',
+    image: '/B.jpg',
+    tags: ['PL/SQL', 'Oracle'],
+    featured: false,
   },
   {
     title: 'BMCE Direct Integration',
-    description: 'PL/SQL function development for banking operations automation and performance optimization.',
-    image: '/C.png', // Notez le slash au début
-    tags: ['PL/SQL', 'Oracle', 'Banking', 'Automation'],
+    description: 'Fonctions PL/SQL pour automatisation des opérations bancaires.',
+    image: '/C.png',
+    tags: ['PL/SQL', 'Oracle'],
     featured: false,
   },
   {
     title: 'Library Management System',
-    description: 'A desktop application developed to manage books, students, and borrowing operations with a focus on usability and data consistency.',
-    image: '/L.jpg', // Notez le slash au début
-    tags: ['Java', 'Java Swing', 'MySQL', 'Desktop App'],
+    description: 'Application desktop pour gérer les livres, étudiants et emprunts.',
+    image: '/L.jpg',
+    tags: ['Java', 'Swing', 'MySQL'],
     featured: false,
-  },
+  }
 ];
-
+  
+  
+  
   return (
     <section
       id="projects"
